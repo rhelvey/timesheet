@@ -32,5 +32,17 @@
 	<script src="../js/bootstrap.min.js"></script>
 	<script src="../js/moment.js"></script>
 	<script src="../js/timesheet.js"></script>
+	<%-- <script type="text/javascript">
+	$(function () {
+        $('#datetimepicker6').datetimepicker();
+        $('#datetimepicker7').datetimepicker();
+        $("#datetimepicker6").on("dp.change", function (e) {
+            $('#datetimepicker7').data("DateTimePicker").minDate(e.date);
+        });
+        $("#datetimepicker7").on("dp.change", function (e) {
+            $('#datetimepicker6').data("DateTimePicker").maxDate(e.date);
+        });
+    });
+	</script> --%>
 </body>
 </html>
