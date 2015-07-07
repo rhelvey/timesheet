@@ -7,11 +7,12 @@
 <html>
 
 <head>
-	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
-	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap-theme.min.css">
-	<link rel="stylesheet" href="../css/timesheet.css">
-	
-	<title>Time Sheet</title>
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap-theme.min.css">
+<link rel="stylesheet" href="../css/bootstrap-datetimepicker.min.css">
+<link rel="stylesheet" href="../css/timesheet.css">
+<link rel="icon" href="../images/calendar.png">
+<title>Time Sheet</title>
 </head>
 
 <body background="../images/Art-White-Hours-Wallpaper-HD-197.jpg">
@@ -20,29 +21,20 @@
 		<%@include file="../WEB-INF/jspf/loginmodal.jspf"%>
 		<%@include file="../WEB-INF/jspf/edittimemodal.jspf"%>
 		<%@include file="../WEB-INF/jspf/timereport.jspf"%>
-		
+
 	</div>
-	
-	<h1 class="titlebacktext" >This is a time sheet</h1><div class="titleback">
-	</div>
-	
+	<h1 class="titlebacktext">This is a time sheet</h1>
+	<div class="titleback"></div>
+
+
+
 
 	<%@include file="../WEB-INF/jspf/footerfragment.jspf"%>
 	<script src="../js/jquery-1.11.3.min.js"></script>
 	<script src="../js/bootstrap.min.js"></script>
 	<script src="../js/moment.js"></script>
+	<script src="../js/bootstrap-datetimepicker.min.js"></script>
 	<script src="../js/timesheet.js"></script>
-	<%-- <script type="text/javascript">
-	$(function () {
-        $('#datetimepicker6').datetimepicker();
-        $('#datetimepicker7').datetimepicker();
-        $("#datetimepicker6").on("dp.change", function (e) {
-            $('#datetimepicker7').data("DateTimePicker").minDate(e.date);
-        });
-        $("#datetimepicker7").on("dp.change", function (e) {
-            $('#datetimepicker6').data("DateTimePicker").maxDate(e.date);
-        });
-    });
-	</script> --%>
 </body>
+
 </html>
